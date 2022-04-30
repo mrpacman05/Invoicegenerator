@@ -1,0 +1,33 @@
+body{
+    background-color: #1C1C1C;
+}
+#upper-box{
+    background-color: #3A69D2;
+    height: 10rem;
+    width: 30rem;
+    position: fixed;
+    left: 50%;
+    margin-left: -100px;
+}
+#heading{
+    color: aliceblue;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+}
+#sub-head{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
