@@ -1,33 +1,223 @@
-body{
-    background-color: #1C1C1C;
+body {
+  background-color: #1c1c1c;
 }
-#upper-box{
-    background-color: #3A69D2;
-    height: 10rem;
-    width: 30rem;
-    position: fixed;
-    left: 50%;
-    margin-left: -100px;
+#upper-box {
+  background-color: #3a69d2;
+  height: 10rem;
+  width: 40rem;
+  margin: 0 auto;
 }
-#heading{
-    color: aliceblue;
-    font-family: 'Inter';
-    font-style: normal;
-    text-align: center;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
+#heading {
+  color: aliceblue;
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
 }
-#sub-head{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* or 175% */
+#sub-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
 
+#lower-box {
+  background-color: #1f2937;
+  height: 30rem;
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.but {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button {
+  margin-top: 5%;
+  padding: 9px 13px;
+  width: 143.17px;
+  height: 45px;
+  background: #d1d4f4;
+  border-radius: 7px;
+}
+.task {
+  position: relative;
+  width: 95px;
+  height: 22px;
+  left: 10%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 167% */
+  margin-top: 20px;
+  display: inline-block;
+  color: #d5d4d8;
+}
+.total {
+  position: relative;
+  display: inline-block;
+  width: 95px;
+  height: 22px;
+  left: 69%;
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #d5d4d8;
+}
+
+.line {
+  width: 523px;
+  height: 0px;
+  position: relative;
+  top: 20px;
+
+  border: 1px solid #c3c6db;
+}
+
+.Notes {
+  position: relative;
+  width: 95px;
+  height: 22px;
+  display: inline-block;
+  left: 10%;
+  /* top: 7%; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #d5d4d8;
+}
+
+/* ****************************Total amount******************************* */
+.total-amnt {
+  position: relative;
+  width: 95px;
+  height: 22px;
+  display: inline-block;
+  left: 60.5%;
+  /* top: 50%; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #d5d4d8;
+}
+.ttl-amnt {
+  position: relative;
+  width: 95px;
+  height: 22px;
+  left: 21%;
+  display: inline-block;
+  top: 10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #d5d4d8;
+}
+
+/* *******************************SERVICE AND ITS AMOUNT********************** */
+.service {
+  position: relative;
+  width: 97px;
+  height: 21px;
+  right: 21%;
+  top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  display: inline-block;
+  color: #f5f5f5;
+}
+.service-amnt {
+  position: relative;
+  width: 71px;
+  height: 21px;
+  left: 32.5%;
+  top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+  display: inline-block;
+  text-align: right;
+
+  color: #f5f5f5;
+}
+
+.payment-methods {
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  height: 15px;
+  right: 21%;
+  top: 9%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+
+  color: #f5f5f5;
+}
+
+/* *******************Send INVIOCE *****************************/
+.snd-inv {
+  position: relative;
+  top: 80px;
+  left: 95px;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  width: 450px;
+  height: 50px;
+  background: #3a69d2;
+  /* shadow/sm */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  
+  /* white */
+  
+  color: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
 }
