@@ -87,7 +87,7 @@ button {
   width: 523px;
   height: 0px;
   position: relative;
-  top: 20px;
+  bottom: 10px;
 
   border: 1px solid #c3c6db;
 }
@@ -98,7 +98,7 @@ button {
   height: 22px;
   display: inline-block;
   left: 10%;
-  /* top: 7%; */
+  bottom: 10px;
 
   font-family: "Inter";
   font-style: normal;
@@ -117,7 +117,7 @@ button {
   height: 22px;
   display: inline-block;
   left: 60.5%;
-  /* top: 50%; */
+  bottom: 10px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -131,7 +131,7 @@ button {
   position: relative;
   width: 95px;
   height: 22px;
-  left: 21%;
+  left: 18.2%;
   display: inline-block;
   top: 10%;
   font-family: "Inter";
@@ -149,8 +149,8 @@ button {
   position: relative;
   width: 97px;
   height: 21px;
-  right: 21%;
-  top: 30px;
+  left: 10%;
+  bottom: 5%;
 
   font-family: "Inter";
   font-style: normal;
@@ -165,8 +165,8 @@ button {
   position: relative;
   width: 71px;
   height: 21px;
-  left: 32.5%;
-  top: 30px;
+  left: 63%;
+  bottom: 5%;
 
   font-family: "Inter";
   font-style: normal;
@@ -201,7 +201,7 @@ button {
 /* *******************Send INVIOCE *****************************/
 .snd-inv {
   position: relative;
-  top: 80px;
+  top: 50px;
   left: 95px;
   align-items: center;
   padding: 9px 17px 9px 15px;
